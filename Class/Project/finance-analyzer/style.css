@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+input, select {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.bar {
+  background: teal;
+  margin: 5px auto;
+  color: white;
+  padding: 5px;
+}

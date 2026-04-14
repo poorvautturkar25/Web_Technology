@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Finance Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💰 Personal Finance Analyzer</h1>
+
+<!-- Input -->
+<input type="text" id="desc" placeholder="Description">
+<input type="number" id="amount" placeholder="Amount">
+
+<select id="type">
+  <option value="income">Income</option>
+  <option value="expense">Expense</option>
+</select>
+
+<select id="category">
+  <option value="food">Food</option>
+  <option value="travel">Travel</option>
+  <option value="shopping">Shopping</option>
+  <option value="other">Other</option>
+</select>
+
+<button onclick="addTransaction()">Add</button>
+
+<!-- List -->
+<h2>Transactions</h2>
+<ul id="list"></ul>
+
+<!-- Summary -->
+<h2 id="summary"></h2>
+<h3 id="highest"></h3>
+
+<!-- Chart -->
+<h2>📊 Expense Chart</h2>
+<div id="chart"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

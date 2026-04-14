@@ -1,0 +1,6 @@
+node - v
+npm install -g @angular/cli
+ng new student_management
+to run - ng serve / ng s
+angular - single page application - navigation fast , do not reload, fast response - e.g - youtube
+src>ng g c Home

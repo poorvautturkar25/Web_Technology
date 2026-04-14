@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.post {
+  border: 1px solid #ccc;
+  margin: 15px auto;
+  padding: 10px;
+  width: 300px;
+  text-align: left;
+}
+
+.comment {
+  font-size: 14px;
+  margin-left: 10px;
+}

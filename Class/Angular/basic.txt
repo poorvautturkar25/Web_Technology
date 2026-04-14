@@ -1,0 +1,30 @@
+Angular :
+-- SPA - Single page Application - e.g - youtube
+- to run code - "ng serve"
+
+package.json - is a configuration file, information abot your project,
+package-lock.json - detailed information 
+angular.json  - project config file
+style.css - golbally to give css 
+gitignore- version control file -
+editorconfig - vs code styling
+index.html - main html file loads angular
+main.ts - entry file 
+appconfig.ts - app configuration file
+
+src - main folder where we actulaay do work 
+app - main root folder
+
+Variable 
+
+Components :- Are a UI blocks of structure when we create components , it create 4 files - html, css, typescript,spec.ts
+-- To create component : ng g genearte component component-name / ng g c component-name
+
+data binding - connect UI to code
+
+1. one-way : 
+1.interpolation - {{value}} - 
+2.property - [property] = "value - class, input types
+3.Event - (event) = "handler()" - button click
+
+2. two-way : [(ngmodel)] = "value"

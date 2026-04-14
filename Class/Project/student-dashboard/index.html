@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Student Dashboard</h1>
+
+    <!--Form-->
+    <div class="form">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="marks" placeholder="Enter Marks">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <!--Search-->
+    <input type="text" id="search" placeholder="Search Student" onkeyup="searchStudent()">
+
+    <!--Table-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+                <th>Result</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="studentList"></tbody>
+    </table>
+
+    <h3 id="summary"></h3>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

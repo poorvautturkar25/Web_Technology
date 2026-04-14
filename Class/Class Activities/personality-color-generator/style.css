@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    transition: background 0.6s ease;
+    background: #1e1e1e;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    background: rgba(255,255,255,0.1);
+    width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+select, button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    background: #00c2ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}

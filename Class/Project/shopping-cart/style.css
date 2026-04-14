@@ -1,0 +1,92 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #faf7f2;
+  font-family: 'Segoe UI',  sans-serif';
+}
+
+h1 {
+  color: #b48a2c; /* gold shade */
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* Product & Cart Cards */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 in one row */
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.product {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+/* Images */
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* better for jewellery */
+  border-radius: 10px;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Input */
+input {
+  padding: 5px;
+}
+
+/* Final Bill */
+#finalBill {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.side-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 30px;
+  gap: 20px;
+}
+
+.wishlist-box,
+.cart-box {
+  width: 45%;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#searchBar {
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+

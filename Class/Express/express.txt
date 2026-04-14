@@ -1,0 +1,45 @@
+Express :
+
+Express is a minimal and flexible web application framework for  nodejs , that similpfies the development of web servers and APIs.
+
+why express.js is imp where node.js is available?
+
+
+Features:
+- Routing, middleware support, requst and response handling, rest API creation, template rendering
+
+Steps :
+on terminal -
+1. check nodejs version - node -version
+2.initalization - 
+NPM - Node Package Manager
+npm init - package.json file created - configuration file
+
+3.npm install express - node modules, package-lock.json files are created.
+4. we need to create entry level file - index.js
+
+Activities : 
+1. differttence between package.json and packahe-lock.json
+2. diff.h dev dependencies and dependencies.
+3.study HTTP requests.
+4.Using JS -create home page containing different departments - in cs create array of objects of students informmation.
+
+Port numbers are in .env file in company level. 
+
+Routing in expressjs :
+-- routing refers to determining how an application response to client requset for a specific url and http methods.
+
+Compontents of Routing:
+-- http methods, url part, handler function
+
+Middleware :
+-- middleware functions are functions that executes during life cycle of request before sending the final response.
+-- they have access to request , response, next.
+-- they have access for 3 parameters - request, response and next.
+
+Flow :
+client request -> middleware ->route handler -> response
+
+function ckeckRoute(req,res,next) =>{
+    cons
+}

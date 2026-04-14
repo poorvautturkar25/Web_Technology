@@ -1,0 +1,16 @@
+<p>admin works!</p>
+{{fname}}
+
+
+<h2> Admin Details </h2>
+<p>Name: {{fname}}</p>
+<p>Age: {{age}}</p> 
+<p>Email: {{email}}</p>
+
+<input [(ngModel)]="fname" placeholder="Enter your name">
+<br><br>
+<input [(ngModel)]="age" placeholder="Enter your age">
+<br><br>
+<input [(ngModel)]="email" placeholder="Enter your email">
+
+<button (click)="updateAdmin()">Update Admin Details</button>
